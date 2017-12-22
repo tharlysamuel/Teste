@@ -34,6 +34,8 @@ namespace Testes
             }
 
             //aplicação do indice da sequencia de fibonacci
+            Console.WriteLine("Insira um numero");
+            Console.ReadLine();
             string num = Console.ReadLine();
             int number;
             Int32.TryParse(num, out number);
